@@ -37,7 +37,7 @@ class _CustomBottomBarState extends State<CustomBottomBar> {
           .entries
           .map((e) => customBottomItem(
             icon: e.value,
-            isSelected: e.key == currentIndex
+            isSelected: e.key == currentIndex,
           ))
           .toList()),
    );
